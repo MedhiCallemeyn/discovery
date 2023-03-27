@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Satisfy";
+  src: url(./font/Satisfy-Regular.ttf);
+}
+*{
+  font-family: Satisfy,sans-serif;
+  list-style: none;
+}
+
+#invisible{
+  opacity: 0;
+  transition: 2s ease-in-out;
+  filter:blur(1.2rem);
+}
+#title{
+  transform: translateY(-1600px);
+  filter:blur(1.2rem);
+  transition: 3s ease;
+}
+#target {
+text-align: center;
+}
+#grid{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+li{
+  font-size: 5rem;
+}
+.fa-star {
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+.fa-star.gold {
+	color: #ffdc0f;
+}
+i{
+  color:whitesmoke;
+  font-size: 5rem;
+  padding: 10px;
+}
